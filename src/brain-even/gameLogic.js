@@ -11,4 +11,4 @@ export const correct = (num) => {
     return 'yes';
   }
   return 'no';
-}
+};
