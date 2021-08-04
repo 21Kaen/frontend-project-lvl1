@@ -1,8 +1,0 @@
-name: hello-world
-on: push
-jobs:
-  linter:
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkLinter
-        run: make lint
