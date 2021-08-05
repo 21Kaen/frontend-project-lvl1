@@ -10,7 +10,7 @@ export const question = () => {
     num += incr;
     arr1.push(num);
   }
-  const indx = getRandomInt(0, 10);
+  const indx = getRandomInt(1, 10);
   const result = arr1[indx];
   const firstPart = [];
   const secondPart = [];
